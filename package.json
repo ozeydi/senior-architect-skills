@@ -1,0 +1,48 @@
+{
+  "name": "senior-architect-skills",
+  "version": "1.0.0",
+  "description": "Professional software development skills and patterns for production-ready applications. Includes senior-standards, clean architecture, and performance optimization patterns.",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ozeydi/senior-architect-skills.git"
+  },
+  "keywords": [
+    "senior-developer",
+    "clean-architecture",
+    "performance-optimization",
+    "professional-standard",
+    "software-architecture",
+    "best-practices",
+    "production-code",
+    "engineering-standards",
+    "DDD",
+    "enterprise-development"
+  ],
+  "license": "MIT",
+  "author": {
+    "name": "ozeydi",
+    "url": "https://github.com/ozeydi"
+  },
+  "files": [
+    "skills/**/SKILL.md",
+    "CONTRIBUTING.md",
+    "SECURITY.md",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "sync": "node scripts/sync-skills.js",
+    "docs": "node scripts/generate-docs.js",
+    "validate": "node scripts/validate-skills.js"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "homepage": "https://github.com/ozeydi/senior-architect-skills#readme",
+  "bugs": {
+    "url": "https://github.com/ozeydi/senior-architect-skills/issues"
+  },
+  "funding": "https://github.com/sponsors/ozeydi"
+}
