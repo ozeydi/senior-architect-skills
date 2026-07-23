@@ -1,0 +1,20 @@
+{
+  "skills": {
+    "senior-developer-standard": {
+      "path": "skills/senior-developer-standard/SKILL.md",
+      "description": "Production-ready code quality and best practices",
+      "triggers": ["implement", "code", "write", "refactor", "production"]
+    },
+    "clean-architecture": {
+      "path": "skills/clean-architecture/SKILL.md",
+      "description": "Clean architecture and DDD patterns",
+      "triggers": ["architecture", "design", "structure", "layer", "domain"]
+    },
+    "performance-optimization": {
+      "path": "skills/performance-optimization/SKILL.md",
+      "description": "Performance optimization strategies",
+      "triggers": ["performance", "optimize", "slow", "cache", "bottleneck"]
+    }
+  },
+  "fallback": "senior-developer-standard"
+}

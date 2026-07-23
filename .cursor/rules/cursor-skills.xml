@@ -1,0 +1,48 @@
+<docs>
+<doc type="rules" title="Senior Developer Standard">
+  <description>Production-ready code quality standards for all development tasks</description>
+  <rules>
+    <rule>Use descriptive camelCase for variables/functions, PascalCase for classes</rule>
+    <rule>Define custom error classes (ValidationError, NetworkError, BusinessLogicError)</rule>
+    <rule>Always validate input at boundaries</rule>
+    <rule>Use async/await with proper error handling</rule>
+    <rule>No magic numbers - use named constants</rule>
+    <rule>Functions must have single responsibility</rule>
+    <rule>Maintain 70%+ test coverage</rule>
+    <rule>Use JSDoc for all public APIs</rule>
+    <rule>Sanitize logs - never log secrets or PII</rule>
+    <rule>Use environment variables for configuration</rule>
+  </rules>
+</doc>
+
+<doc type="rules" title="Clean Architecture">
+  <description>System design with clear separation of concerns</description>
+  <rules>
+    <rule>Dependencies point inward: framework → use cases → entities</rule>
+    <rule>Inner layers define contracts, outer layers implement them</rule>
+    <rule>Business logic lives in domain/entities layer</rule>
+    <rule>Use dependency injection for testability</rule>
+    <rule>Define repository interfaces for data access</rule>
+    <rule>Use value objects for complex domain values</rule>
+    <rule>Implement use cases for business operations</rule>
+    <rule>Keep infrastructure concerns outside domain logic</rule>
+    <rule>Use events for cross-boundary communication</rule>
+  </rules>
+</doc>
+
+<doc type="rules" title="Performance Optimization">
+  <description>Identifying and implementing performance improvements</description>
+  <rules>
+    <rule>Target O(n) or better time complexity</rule>
+    <rule>Use Set for O(1) membership lookup</rule>
+    <rule>Avoid N+1 queries - use JOIN or batch loading</rule>
+    <rule>Implement caching layers for frequent data access</rule>
+    <rule>Use lazy loading for large datasets</rule>
+    <rule>Run parallel operations with Promise.all</rule>
+    <rule>Profile before optimizing</rule>
+    <rule>Use connection pooling for databases</rule>
+    <rule>Memoize expensive function calls</rule>
+    <rule>Keep UI operations under 16ms</rule>
+  </rules>
+</doc>
+</docs>

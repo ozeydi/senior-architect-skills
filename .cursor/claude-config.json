@@ -1,0 +1,22 @@
+{
+  "name": "Senior Architect Skills",
+  "description": "Professional software development skills for Claude Desktop",
+  "skills": [
+    {
+      "name": "senior-developer-standard",
+      "path": "skills/senior-developer-standard/SKILL.md",
+      "description": "Production-ready code quality standards"
+    },
+    {
+      "name": "clean-architecture",
+      "path": "skills/clean-architecture/SKILL.md",
+      "description": "System design and architectural patterns"
+    },
+    {
+      "name": "performance-optimization",
+      "path": "skills/performance-optimization/SKILL.md",
+      "description": "Performance tuning and optimization strategies"
+    }
+  ],
+  "global_instructions": "Always follow senior-developer-standard for code quality, clean-architecture for system design, and performance-optimization for efficiency."
+}
